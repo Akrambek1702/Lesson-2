@@ -1,0 +1,76 @@
+:root {
+    --background: #ffc337;
+    --main-color: #fff;
+    --border: #222;
+}
+
+
+body {
+    background: var(--background);
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.logo {
+    margin-top: 50px;
+}
+
+.forms {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+}
+
+.btn {
+    padding: 12px 50px;
+    margin: 15px;
+    border: 2px solid var(--border);
+    border-radius: 10px;
+    background: var(--main-color);
+    font-weight: bolder;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 20px;
+}
+
+.card {
+    width: 250px;
+    margin: 20px;
+    border: 3px solid var(--border);
+    border-radius: 20px;
+    background-color: var(--main-color);
+}
+
+.card-body-content {
+    padding: 0px 25px;
+    border-top: 2px solid var(--border)
+}
+
+.card-image {
+    margin: 20px;
+    padding: 0px 25px;
+}
+
+.card-footer {
+    display: flex;
+    padding: 0px 25px;
+}
+
+.card-footer p {
+    font-size: 23px;
+    font-weight: bolder;
+}
+
+.card-footer .age {
+    margin-left: 25px;
+}
